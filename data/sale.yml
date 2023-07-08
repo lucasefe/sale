@@ -1,0 +1,33 @@
+name: "La Venta de Furio"
+
+items:
+  - name: Nighthawk Dual-Band WiFi Router, 1.9Gbps
+    slug: "nighthawk"
+    price: $120
+    images: 
+      - url: /images/netgear-1.jpeg
+    description: | 
+      Get blazing-fast WiFi speeds up to 1.9Gbps and a 1GHz dual-core processor for extended range. Keep your family safe from online threats with an automatic shield of protection for all your connected devices from NETGEAR Armor™. Add NETGEAR Smart Parental Controls to keep kids safe and easily manage their time online.
+  - name: Macbook Pro 16"
+    slug: "macbook-pro-16"
+    price: $1500
+    images: 
+      - url: /images/macbook-pro-16-1.jpg
+    description: | 
+      dddsdgnbd fgndfgndfcn
+      dfgndfndfg
+      dfgndfndfb
+
+  - name: Macbook Pro 15"
+    slug: "macbook-pro-15"
+    price: $1300
+    images: 
+      - url: /images/macbook-pro-15-1.jpg
+
+    description: |
+      khfgsdhnd Furiodfgh
+      dfghdfgndf
+      dfgndfhmnd ndxfgnd fxnd fgxn
+      dfgh nsdfgn dfghdfgndf
+      xjdfj dfghdfgndf
+      d fgdgf

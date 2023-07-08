@@ -1,0 +1,20 @@
+---
+title: Furio's Garage Sale
+---
+
+<ul role="list" class="divide-y divide-gray-100">
+  <% data.sale.items.each do |item| %>
+    <li class="flex justify-between gap-x-6 py-5">
+      <div class="flex gap-x-4">
+        <a href="<%= item.slug %>.html">
+          <img class="h-12 w-12 flex-none rounded-full bg-gray-50" src="<%= item.images[0].try(:url) %>" alt="">
+          <div class="min-w-0 flex-auto">
+            <p class="text-sm font-semibold leading-6 text-gray-900"><%= item.name%></p>
+            <p class="mt-1 truncate text-xs leading-5 text-gray-500"><%= item.price%></p>
+          </div>
+        </a>
+      </div>
+    </li>
+  <% end %>
+</ul>
+
